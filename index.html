@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/app.min.css">
 </head>
 
-<body>
+<body class="body" id="top">
         <div class="wrapper">
             <header class="header">
     <div class="container">
@@ -17,38 +17,41 @@
             <a class="header__logo" href="#!">
                 <img src="images/logo.svg" alt="Zone">
             </a>
+            <button class="button-menu">
+                <span class="button-line"></span>
+            </button>
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a class="nav__link" href="#!">
+                        <a class="nav__link" href="#top">
                             Home
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#!">
+                        <a class="nav__link" href="#about">
                             About Us
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#!">
+                        <a class="nav__link" href="#services">
                             Service
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#!">
-                            Pricing
+                        <a class="nav__link" href="#team">
+                            Our Team
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#!">
+                        <a class="nav__link" href="#newsletter">
                             Blog
                         </a>
                     </li>
                 </ul>
-                <button class="header__button">
-                    Contact Us
-                </button>
             </nav>
+            <button class="header__button">
+                Contact Us
+            </button>
         </div>
     </div>
 </header>
@@ -72,7 +75,7 @@
     </div>
     <img class="top__image" src="images/top-pic.png" alt="person">
 </section>
-                    <section class="services">
+                    <section class="services" id="services">
     <h2 class="services__title title">
         Our Service
     </h2>
@@ -161,7 +164,7 @@
         </div>
     </div>
 </section>
-                    <section class="about">
+                    <section class="about" id="about">
     <div class="about__inner">
         <img class="about__image" src="images/about-pic@1x.png" alt="interface">
         <div class="about__content">
@@ -199,7 +202,7 @@
         </div>
     </div>
 </section>
-                    <section class="team">
+                    <section class="team" id="team">
     <h2 class="team__title title">
         Met Our Team
     </h2>
@@ -334,7 +337,7 @@
         </div>
     </div>
 </section>
-                    <section class="newsletter">
+                    <section class="newsletter" id="newsletter">
     <h2 class="newsletter__title title">
         Subscribe to get the Latest News 
     </h2>
@@ -449,91 +452,89 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer__items">
-                <div class="footer__item">
-                    <h5 class="footer__title">
-                        Service
-                    </h5>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="#!" class="footer__link">
-                                Order Management
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Social Assistant
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Crypto Platform
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Analyzer of the News
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__title">
-                        Company
-                    </h5>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="#!" class="footer__link">
-                                About Us
-                            </a>
-                            <a href="#!" class="footer__link">
-                                News
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Our trusted partner
-                            </a>
-                            <a href="#!" class="footer__link">
-                                New users FAQ
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__title">
-                        Supports
-                    </h5>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="#!" class="footer__link">
-                                Help center
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Feedbcak
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Contact us
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Terms conditins
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__title">
-                        Resources
-                    </h5>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="#!" class="footer__link">
-                                Download app
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Blog
-                            </a>
-                            <a href="#!" class="footer__link">
-                                What’s new
-                            </a>
-                            <a href="#!" class="footer__link">
-                                Sitemap
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="footer__item">
+                <h5 class="footer__title">
+                    Service
+                </h5>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#!" class="footer__link">
+                            Order Management
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Social Assistant
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Crypto Platform
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Analyzer of the News
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h5 class="footer__title">
+                    Company
+                </h5>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#!" class="footer__link">
+                            About Us
+                        </a>
+                        <a href="#!" class="footer__link">
+                            News
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Our trusted partner
+                        </a>
+                        <a href="#!" class="footer__link">
+                            New users FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h5 class="footer__title">
+                    Supports
+                </h5>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#!" class="footer__link">
+                            Help center
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Feedbcak
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Contact us
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Terms conditins
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h5 class="footer__title">
+                    Resources
+                </h5>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#!" class="footer__link">
+                            Download app
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Blog
+                        </a>
+                        <a href="#!" class="footer__link">
+                            What’s new
+                        </a>
+                        <a href="#!" class="footer__link">
+                            Sitemap
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
